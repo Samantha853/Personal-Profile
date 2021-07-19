@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(121deg, rgba(120,241,234,1) 0%, rgba(181,180,208,1) 46%, rgba(241,120,182,1) 100%);
+    position: relative;
+    background-repeat: no-repeat;
+    }
+
+    
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em ;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+    
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.content-wrapper {
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    transform: translateX(0%) translateY(-10%);
+    margin-top: 250px;
+    margin-bottom: 265.5px;
+    
+    
+}
+
+
+  
+  
+.main-heading {
+    font-size: 100px;
+    padding: 0px;
+    text-align: right;
+
+    
+}
+
+.sub-heading {
+    padding: 0px;
+    text-align: right;
+    font-size: 30px;
+    margin-left: 883px;
+
+}
+
+/* About page*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 50px;
+    margin-bottom: -320px;
+    margin-left: 200px;
+    margin-top: -15px;
+}
+
+.profile-image-wrapper img {
+    padding: 50px;
+    margin-left: 100px
+    
+
+}
+
+.profile-content-wrapper {
+    padding: 50px;
+
+}
+
+h4 {
+    font-size: 50px;
+    
+}
+
+p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*Projects Page*/
+
+.project-content {
+    margin-left: 50px;
+}
+.project-img {
+    margin-bottom: 463px;
+    margin-top: 100px;
+    margin-left: 50px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ;
+    backface-visibility: hidden;
+}
+
+.project-img:hover {
+    opacity: 0.3;
+    
+}
+
+p {
+    text-align: justify;
+    width: 500px;
+}
+
+
+h1 {
+    font-size: 100px;
+    margin-top: 150px;
+    margin-left: 200px
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 800px;
+}
+
+.b1 {
+    height: 50px;
+    width: 200px;
+    margin-left: 1100px;
+    margin-top: 50px;
+    background: linear-gradient(121deg, rgba(120,241,234,1) 0%, rgba(181,180,208,1) 46%, rgba(241,120,182,1) 100%);
+    font-weight: bold;
+    border-color:transparent;
+}
+
+.cv-content > a {
+    text-decoration: none;
+}
